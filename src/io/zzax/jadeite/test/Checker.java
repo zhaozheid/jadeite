@@ -59,7 +59,7 @@ public class Checker {
     }
 
     public static void task(Task task) {
-        task(counter.getLast() + "", task);
+        task("task " + counter.getLast(), task);
     }
 
     @FunctionalInterface
