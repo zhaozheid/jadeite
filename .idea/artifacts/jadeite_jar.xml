@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jadeite:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jadeite_jar</output-path>
+    <root id="archive" name="jadeite.jar">
+      <element id="module-output" name="jadeite" />
+    </root>
+  </artifact>
+</component>

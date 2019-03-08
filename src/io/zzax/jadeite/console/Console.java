@@ -22,8 +22,8 @@ public class Console {
 
     public static void print(Object... objects){
         List<Object> objectList = Arrays.asList(objects);
-        List<String> stringList = objectList.stream().map(o -> o.toString()).collect(Collectors.toList());
-        String str = String.join(", ", stringList);
+        List<String> stringList = objectList.stream().map(Object::toString).collect(Collectors.toList());
+        String str = String.join("", stringList);
         System.out.print(str);
     }
 
